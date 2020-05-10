@@ -6,6 +6,7 @@ Vue.component('app', {
             <ul>
                 <li><router-link to="/home">首页</router-link></li>
                 <li><router-link to="/hello">hello</router-link></li>
+                <li><router-link to="/weather">weather</router-link></li>
             </ul>
         </div>
         <router-view></router-view>
