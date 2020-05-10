@@ -1,0 +1,10 @@
+.m-toast-pop {position: fixed; width: 100%;top: 0;bottom: 0;right: 0;overflow: auto;text-align: center; z-index: 9;}      
+.m-toast-inner {position: absolute;left:50%;top:50%;width: 100%; transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);text-align: center;}
+.m-toast-inner-text{display: inline-block;margin: 0 22px; padding: 19px 21px;font-size: 16px;color: #FFFFFF;letter-spacing: 0;line-height: 22px;background: rgba(0,0,0,0.72);border-radius: 10px;}   
+.fade-enter-active, .fade-leave-active {transition: opacity .5s; }
+.fade-enter, .fade-leave-to {opacity: 0; }
+
+.topbar {line-height: 39px; border-bottom: 1px solid #eee; }
+.topbar ul{margin: 0; padding: 0 5px;}
+.topbar li{display: inline-block; padding: 0 5px;}
+.router-link-active {color: #666;}
